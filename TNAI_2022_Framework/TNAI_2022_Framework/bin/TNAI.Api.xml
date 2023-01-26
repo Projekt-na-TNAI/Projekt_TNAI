@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TNAI_2022_Framework</name>
+    </assembly>
+    <members>
+        <member name="T:TNAI_2022_Framework.UnityConfig">
+            <summary>
+            Specifies the Unity configuration for the main container.
+            </summary>
+        </member>
+        <member name="P:TNAI_2022_Framework.UnityConfig.Container">
+            <summary>
+            Configured Unity Container.
+            </summary>
+        </member>
+        <member name="M:TNAI_2022_Framework.UnityConfig.RegisterTypes(Unity.IUnityContainer)">
+            <summary>
+            Registers the type mappings with the Unity container.
+            </summary>
+            <param name="container">The unity container to configure.</param>
+            <remarks>
+            There is no need to register concrete types such as controllers or
+            API controllers (unless you want to change the defaults), as Unity
+            allows resolving a concrete type even if it was not previously
+            registered.
+            </remarks>
+        </member>
+        <member name="T:TNAI_2022_Framework.UnityWebApiActivator">
+            <summary>
+            Provides the bootstrapping for integrating Unity with WebApi when it is hosted in ASP.NET.
+            </summary>
+        </member>
+        <member name="M:TNAI_2022_Framework.UnityWebApiActivator.Start">
+            <summary>
+            Integrates Unity when the application starts.
+            </summary>
+        </member>
+        <member name="M:TNAI_2022_Framework.UnityWebApiActivator.Shutdown">
+            <summary>
+            Disposes the Unity container when the application is shut down.
+            </summary>
+        </member>
+        <member name="M:TNAI_2022_Framework.Controllers.CartsController.Get(System.Int32)">
+            <summary>
+            Pobierz wybraną kategorię
+            </summary>
+            <param name="id">Identyfikator kategorii</param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:TNAI_2022_Framework.Controllers.CategoriesController.Get(System.Int32)">
+            <summary>
+            Pobierz wybraną kategorię
+            </summary>
+            <param name="id">Identyfikator kategorii</param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:TNAI_2022_Framework.Controllers.OrdersController.Get(System.Int32)">
+            <summary>
+            Pobierz wybraną kategorię
+            </summary>
+            <param name="id">Identyfikator kategorii</param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:TNAI_2022_Framework.Controllers.ProductsController.Get(System.Int32)">
+            <summary>
+            Pobierz wybraną kategorię
+            </summary>
+            <param name="id">Identyfikator kategorii</param>
+            <returns></returns>
+            
+        </member>
+    </members>
+</doc>

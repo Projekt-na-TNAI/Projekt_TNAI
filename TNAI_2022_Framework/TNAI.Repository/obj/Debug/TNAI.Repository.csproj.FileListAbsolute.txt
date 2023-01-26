@@ -1,0 +1,15 @@
+C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Repository\bin\Debug\TNAI.Repository.dll.config
+C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Repository\bin\Debug\TNAI.Repository.dll
+C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Repository\bin\Debug\TNAI.Repository.pdb
+C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Repository\bin\Debug\EntityFramework.dll
+C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Repository\bin\Debug\TNAI.Model.dll
+C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Repository\bin\Debug\TNAI.Model.pdb
+C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Repository\bin\Debug\TNAI.Model.dll.config
+C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Repository\bin\Debug\EntityFramework.xml
+C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Repository\obj\Debug\TNAI.Repository.csproj.AssemblyReference.cache
+C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Repository\obj\Debug\TNAI.Repository.csproj.CoreCompileInputs.cache
+C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Repository\obj\Debug\TNAI.Repository.csproj.CopyComplete
+C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Repository\obj\Debug\TNAI.Repository.dll
+C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Repository\obj\Debug\TNAI.Repository.pdb
