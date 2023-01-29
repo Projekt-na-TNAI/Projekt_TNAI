@@ -9,9 +9,7 @@ namespace TNAI.Model.Entities
     public class Cart
     {
         public int Id { get; set; }
-
         public int IdUser { get; set; }
-
         public virtual ICollection<Product> ProductsList { get; set;}
     }
 }

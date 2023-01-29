@@ -12,3 +12,17 @@ C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Model\obj\Debug\TNAI.Mod
 C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Model\obj\Debug\TNAI.Model.csproj.CopyComplete
 C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Model\obj\Debug\TNAI.Model.dll
 C:\AKTUAL\2022-23Z-TNAI-master\TNAI_2022_Framework\TNAI.Model\obj\Debug\TNAI.Model.pdb
+C:\Users\mbiel\Downloads\Projekt_TNAI-main\Projekt_TNAI-main\TNAI_2022_Framework\TNAI.Model\bin\Debug\TNAI.Model.dll.config
+C:\Users\mbiel\Downloads\Projekt_TNAI-main\Projekt_TNAI-main\TNAI_2022_Framework\TNAI.Model\bin\Debug\TNAI.Model.dll
+C:\Users\mbiel\Downloads\Projekt_TNAI-main\Projekt_TNAI-main\TNAI_2022_Framework\TNAI.Model\bin\Debug\TNAI.Model.pdb
+C:\Users\mbiel\Downloads\Projekt_TNAI-main\Projekt_TNAI-main\TNAI_2022_Framework\TNAI.Model\bin\Debug\EntityFramework.dll
+C:\Users\mbiel\Downloads\Projekt_TNAI-main\Projekt_TNAI-main\TNAI_2022_Framework\TNAI.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mbiel\Downloads\Projekt_TNAI-main\Projekt_TNAI-main\TNAI_2022_Framework\TNAI.Model\bin\Debug\EntityFramework.xml
+C:\Users\mbiel\Downloads\Projekt_TNAI-main\Projekt_TNAI-main\TNAI_2022_Framework\TNAI.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mbiel\Downloads\Projekt_TNAI-main\Projekt_TNAI-main\TNAI_2022_Framework\TNAI.Model\obj\Debug\TNAI.Model.csproj.AssemblyReference.cache
+C:\Users\mbiel\Downloads\Projekt_TNAI-main\Projekt_TNAI-main\TNAI_2022_Framework\TNAI.Model\obj\Debug\TNAI.Model.Migrations.init.resources
+C:\Users\mbiel\Downloads\Projekt_TNAI-main\Projekt_TNAI-main\TNAI_2022_Framework\TNAI.Model\obj\Debug\TNAI.Model.csproj.GenerateResource.cache
+C:\Users\mbiel\Downloads\Projekt_TNAI-main\Projekt_TNAI-main\TNAI_2022_Framework\TNAI.Model\obj\Debug\TNAI.Model.csproj.CoreCompileInputs.cache
+C:\Users\mbiel\Downloads\Projekt_TNAI-main\Projekt_TNAI-main\TNAI_2022_Framework\TNAI.Model\obj\Debug\TNAI.Model.csproj.CopyComplete
+C:\Users\mbiel\Downloads\Projekt_TNAI-main\Projekt_TNAI-main\TNAI_2022_Framework\TNAI.Model\obj\Debug\TNAI.Model.dll
+C:\Users\mbiel\Downloads\Projekt_TNAI-main\Projekt_TNAI-main\TNAI_2022_Framework\TNAI.Model\obj\Debug\TNAI.Model.pdb
