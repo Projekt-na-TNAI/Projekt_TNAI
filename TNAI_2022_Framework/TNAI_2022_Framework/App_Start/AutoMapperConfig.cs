@@ -16,7 +16,11 @@ namespace TNAI_2022_Framework.App_Start
         public AutoMapperConfig() 
         {
             CreateMap<Category, CategoryOutputModel>()
-                .ForMember(x => x.Name, d=> d.MapFrom(s => $"{s.Id} - {s.Name}"));
+                .ForMember(x => x.Name, d => d.MapFrom(s => $"{s.Id} - {s.Name}"));
+            CreateMap<Product, ProductOutputModel>()
+                .ForMember(x => x.Name, d => d.MapFrom(s => $"{s.Id} - {s.Name}"));
+            CreateMap<Order, OrderOutputModel>()
+                .ForMember(x => x.Name, d => d.MapFrom(s => $"{s.Id} - {s.Name}"));
         }
     }
 }

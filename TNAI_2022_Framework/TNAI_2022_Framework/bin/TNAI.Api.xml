@@ -43,9 +43,9 @@
         </member>
         <member name="M:TNAI_2022_Framework.Controllers.CartsController.Get(System.Int32)">
             <summary>
-            Pobierz wybraną kategorię
+            Pobierz wybrany koszyk
             </summary>
-            <param name="id">Identyfikator kategorii</param>
+            <param name="id">Identyfikator koszyka</param>
             <returns></returns>
             
         </member>
@@ -59,17 +59,17 @@
         </member>
         <member name="M:TNAI_2022_Framework.Controllers.OrdersController.Get(System.Int32)">
             <summary>
-            Pobierz wybraną kategorię
+            Pobierz wybrane zamówienie
             </summary>
-            <param name="id">Identyfikator kategorii</param>
+            <param name="id">Identyfikator zamówienia</param>
             <returns></returns>
             
         </member>
         <member name="M:TNAI_2022_Framework.Controllers.ProductsController.Get(System.Int32)">
             <summary>
-            Pobierz wybraną kategorię
+            Pobierz wybrany produkt
             </summary>
-            <param name="id">Identyfikator kategorii</param>
+            <param name="id">Identyfikator produktu</param>
             <returns></returns>
             
         </member>
