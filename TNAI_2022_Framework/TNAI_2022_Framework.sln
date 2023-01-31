@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TNAI.Model", "TNAI.Model\TN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TNAI.Repository", "TNAI.Repository\TNAI.Repository.csproj", "{4BA4BBC2-F07A-44BB-B607-512694C04C55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TNAI.MVC", "TNAI.MVC\TNAI.MVC.csproj", "{082FE864-274C-46E7-B5D1-26BD9F7F4A44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4BA4BBC2-F07A-44BB-B607-512694C04C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BA4BBC2-F07A-44BB-B607-512694C04C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BA4BBC2-F07A-44BB-B607-512694C04C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082FE864-274C-46E7-B5D1-26BD9F7F4A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082FE864-274C-46E7-B5D1-26BD9F7F4A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082FE864-274C-46E7-B5D1-26BD9F7F4A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082FE864-274C-46E7-B5D1-26BD9F7F4A44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

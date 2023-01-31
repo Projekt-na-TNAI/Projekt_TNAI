@@ -14,8 +14,6 @@ namespace TNAI.Model.Configurations
         {
             HasKey(x => x.Id);
             Property(x => x.Id).HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity);
-
-            Property(x => x.IdUser).HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity);
         }
 
     }

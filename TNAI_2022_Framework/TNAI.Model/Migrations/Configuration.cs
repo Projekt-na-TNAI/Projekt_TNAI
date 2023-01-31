@@ -24,29 +24,42 @@
                 context.Categories.Add(new Entities.Category()
                 {
                     Id = 1,
-                    Name = "Monitory"
+                    Name = "Sportowe"
                 });
 
                 context.Categories.Add(new Entities.Category()
                 {
                     Id = 2,
-                    Name = "Ubrania"
+                    Name = "Zimowe"
                 });
 
-                if(!context.Products.Any())
+                context.Categories.Add(new Entities.Category()
+                {
+                    Id = 3,
+                    Name = "Kalosze"
+                });
+
+                if (!context.Products.Any())
                 {
                     context.Products.Add(new Entities.Product()
                     {
-                        Name = "Dell",
+                        Name = "Jordany",
                         Price = 1000,
                         CategoryId = 1
                     });
 
                     context.Products.Add(new Entities.Product()
                     {
-                        Name = "Bluza",
-                        Price = 200,
+                        Name = "Kozaki",
+                        Price = 250,
                         CategoryId = 2
+                    });
+
+                    context.Products.Add(new Entities.Product()
+                    {
+                        Name = "Kalosze rybaka",
+                        Price = 50,
+                        CategoryId = 3
                     });
                 }
 

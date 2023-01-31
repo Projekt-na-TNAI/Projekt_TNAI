@@ -40,6 +40,12 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.3\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.3\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -60,11 +66,20 @@
     <Compile Include="Entities\Category.cs" />
     <Compile Include="Entities\Order.cs" />
     <Compile Include="Entities\Product.cs" />
-    <Compile Include="Migrations\202211161627137_init.cs" />
-    <Compile Include="Migrations\202211161627137_init.designer.cs">
-      <DependentUpon>202211161627137_init.cs</DependentUpon>
+    <Compile Include="Identity\ApplicationUser.cs" />
+    <Compile Include="Migrations\202301312304492_identity.cs" />
+    <Compile Include="Migrations\202301312304492_identity.designer.cs">
+      <DependentUpon>202301312304492_identity.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\InputModels\CartInputModel.cs" />
+    <Compile Include="Models\InputModels\CategoryInputModel.cs" />
+    <Compile Include="Models\InputModels\OrderInputModel.cs" />
+    <Compile Include="Models\InputModels\ProductInputModel.cs" />
+    <Compile Include="Models\OutputModels\CartOutputModel.cs" />
+    <Compile Include="Models\OutputModels\CategoryOutputModel.cs" />
+    <Compile Include="Models\OutputModels\OrderOutputModel.cs" />
+    <Compile Include="Models\OutputModels\ProductOutputModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -72,8 +87,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202211161627137_init.resx">
-      <DependentUpon>202211161627137_init.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202301312304492_identity.resx">
+      <DependentUpon>202301312304492_identity.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
