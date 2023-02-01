@@ -1,0 +1,35 @@
+﻿@model IEnumerable<TNAI.Model.Entities.Cart>
+
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>UserId</th>
+        <th>Product</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.Id
+            </td>
+            <td>
+                @item.IdUser
+            </td>
+            @if (item.ProductsList != null)
+            {
+                foreach (var product in item.ProductsList)
+                {
+                    <tr>
+                        <td>
+                            product.Name
+                        </td>
+                        <td>
+                            product.Price
+                        </td>
+                    </tr>
+                }
+            }
+            </tr>
+        }
+</table>

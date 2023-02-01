@@ -16,7 +16,6 @@ namespace TNAI.MVC.Controllers
 {
     public class ProductsController : Controller
     {
-        private AppDbContext db = new AppDbContext();
         private IProductRepository _productRepository;
         private ICategoryRepository _categoryRepository;
 
@@ -51,7 +50,7 @@ namespace TNAI.MVC.Controllers
         // GET: Products/Create
         public ActionResult Create()
         {
-            ViewBag.CategoryId = new SelectList(db.Categories, "Id", "Name");
+            ViewBag.CategoryId = new SelectList(Task.Run(() => _categoryRepository.GetAllCategoriesAsync()).Result, "Id", "Name");
             return View();
         }
 
@@ -134,20 +133,11 @@ namespace TNAI.MVC.Controllers
             return RedirectToAction("Index");
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
-
         [HttpGet]
         public ActionResult ProductListPartial()
         {
-            var categories = Task.Run(() => _productRepository.GetAllProductsAsync()).Result;
-            return PartialView("_productListPartial", categories);
+            var products = Task.Run(() => _productRepository.GetAllProductsAsync()).Result;
+            return PartialView("_productListPartial", products);
         }
     }
 }

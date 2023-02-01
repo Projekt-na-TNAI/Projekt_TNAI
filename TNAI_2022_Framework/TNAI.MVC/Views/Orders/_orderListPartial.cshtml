@@ -1,0 +1,36 @@
+﻿@model IEnumerable<TNAI.Model.Entities.Order>
+
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Products</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.Id
+            </td>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.CreationDate
+            </td>
+            @foreach (var product in item.Products)
+            {
+                <tr>
+                    <td>
+                        @product.Name
+                    </td>
+                    <td>
+                        @product.Price
+                    </td>
+                </tr>
+            }
+        </tr>
+    }
+</table>
